@@ -1,0 +1,33 @@
+.Todo_list{
+    list-style: none;
+    padding: 0;
+}
+
+.List_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #edf2fb;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 5px 5px 5px 5px;
+}
+
+.item_span{
+    font-size: 20px;
+}
+.todo_Completed{
+    color: gray;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+.todo_Incompleted{
+    font-weight: bold;
+}
+.checkbox{
+        width: 1.5rem;
+        height: 1.5rem;
+        accent-color: green;
+        margin-right: 10px;
+}

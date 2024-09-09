@@ -1,0 +1,12 @@
+.Delete_button{
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #edf2fb;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Delete_button:hover{
+    background-color: #b6ccfe ;
+}
